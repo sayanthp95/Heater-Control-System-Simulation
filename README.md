@@ -36,4 +36,6 @@ The firmware is written in Arduino C++ and structured around a finite state mach
 LEDs are updated such that only the one associated with the current state is active. The heater control pin is activated only during Heating and Stabilizing states. The buzzer is enabled only during the Overheat state. Every second, the serial monitor prints the current temperature, state name, and BLE advertising string format `HTR<StateCode>`.
 
 
+## Simulation
 
+The project was built using the [Wokwi simulator](https://wokwi.com/projects/436647292966195201), which emulates the ESP32 and all peripherals.
